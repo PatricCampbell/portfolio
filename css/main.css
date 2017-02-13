@@ -45,3 +45,15 @@ img {
 .portfolio {
     margin: 0 20% 5rem 20%;
 }
+
+@media (max-width: 1026px) and (min-width: 651px) {
+    .portfolio {
+        margin: 0 10% 5rem 10%;
+    }
+}
+
+@media (max-width: 650px) {
+    .portfolio {
+        margin: 0 2.5% 5rem 2.5%;
+    }
+}
