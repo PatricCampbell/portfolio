@@ -23,11 +23,16 @@ body {
     linear-gradient(
         rgba(126, 126, 126, 0.50),
         rgba(126, 126, 126, 0.65)),
-    url("http://res.cloudinary.com/drhyh4h0r/image/upload/c_scale,w_1920/v1486938733/2016-02-28_16.04.35_w5h0vo.png")
+    url("https://res.cloudinary.com/drhyh4h0r/image/upload/c_scale,w_1920/v1486938733/2016-02-28_16.04.35_w5h0vo.png")
     no-repeat
     center;
     text-align: center;
     color: white;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 #portrait {
@@ -35,4 +40,8 @@ body {
     margin-top: 6rem;
     border: 10px solid white;
     border-radius: 10rem;
+}
+
+.portfolio {
+    margin: 0 20% 5rem 20%;
 }
