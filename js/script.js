@@ -16,7 +16,7 @@ var projects = [
   {
     'title': 'Consent Form Generator',
     'projectURL': '',
-    'image': 'https://res.cloudinary.com/drhyh4h0r/image/upload/v1487015455/OSP-Consent-Form-Generator_o2jequ.png',
+    'image': 'https://res.cloudinary.com/drhyh4h0r/image/upload/v1487015456/OSP-Consent-Form-Generator-Page_msscrf.png',
     'githubURL': '',
     'description': 'Consent Form generator for new human subjects researchers at NYU. It asks questions to generate the form, allows the user to edit it in the browser before creating a word document for them to download.'
   }
