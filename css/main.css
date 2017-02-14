@@ -64,6 +64,12 @@ img {
     font-size: 1.5rem;
 }
 
+footer {
+    height: 2rem;
+    text-align: center;
+    background: lightgrey;
+}
+
 @media (max-width: 1026px) and (min-width: 651px) {
     .portfolio, .contact {
         margin: 0 10% 5rem 10%;
