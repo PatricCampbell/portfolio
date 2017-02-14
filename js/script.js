@@ -74,10 +74,19 @@ function populateProjects(projectArr) {
 function populateContacts(contactArr) {
   var contacts = document.querySelector(".contact_list");
   contactArr.forEach((contact) => {
+    if (contact.name !== "Email") {
     contacts.innerHTML = contacts.innerHTML +
     '<div class="contact_link"><p><a href="' + contact.link +
-    '" target=_blank<i class="fa fa-' + contact.icon +
+    '" target=_blank><i class="fa fa-' + contact.icon +
     '" aria-hidden="true"</i> ' + contact.name +
     '</a></p></div>';
+  }
+  else {
+    contacts.innerHTML = contacts.innerHTML +
+    '<div class="contact_link"><p><a href="' + contact.link +
+    '"><i class="fa fa-' + contact.icon +
+    '" aria-hidden="true"</i> ' + contact.name +
+    '</a></p></div>';
+  }
   });
 }
