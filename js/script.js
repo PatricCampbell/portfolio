@@ -6,7 +6,14 @@ var projects = [
     'githubURL': 'https://github.com/PatricCampbell/random-quote',
     'description': 'Random Quoter app made for FreeCodeCamp.com certificate. It pulls from a random quote api and lets you tweet it or get a new quote.'
   },
-    {
+  {
+    'title': 'Portfolio',
+    'projectURL': 'http://patriccampbell.com/',
+    'image': 'https://res.cloudinary.com/drhyh4h0r/image/upload/v1487106547/portfolio_pwapde.png',
+    'githubURL': 'https://github.com/PatricCampbell/portfolio',
+    'description': "You're looking right at it."
+  },
+  {
     'title': 'User Registration Form',
     'projectURL': '',
     'image': 'https://res.cloudinary.com/drhyh4h0r/image/upload/v1487015456/OSP-User-Form_fweeqd.png',
