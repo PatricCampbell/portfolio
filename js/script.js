@@ -22,7 +22,31 @@ var projects = [
   }
 ];
 
+var contacts = [
+  {
+    "name": "Email",
+    "link": "mailto:patriccampbell@outlook.com",
+    "icon": "envelope-o"
+  },
+  {
+    "name": "Github Profile",
+    "link": "https://github.com/PatricCampbell",
+    "icon": "github"
+  },
+  {
+    "name": "LinkedIn Profile",
+    "link": "https://www.linkedin.com/in/patriccampbell",
+    "icon": "linkedin"
+  },
+  {
+    "name": "FreeCodeCamp Profile",
+    "link": "https://www.freecodecamp.com/patriccampbell",
+    "icon": "free-code-camp"
+  }
+];
+
 populateProjects(projects);
+populateContacts(contacts);
 
 function populateProjects(projectArr) {
   var portfolio = document.querySelector(".portfolio");
@@ -44,5 +68,16 @@ function populateProjects(projectArr) {
       '"></a><p>' + project.description +
       '</p></div>';   
     }
+  });
+}
+
+function populateContacts(contactArr) {
+  var contacts = document.querySelector(".contact_list");
+  contactArr.forEach((contact) => {
+    contacts.innerHTML = contacts.innerHTML +
+    '<div class="contact_link"><p><a href="' + contact.link +
+    '" target=_blank<i class="fa fa-' + contact.icon +
+    '" aria-hidden="true"</i> ' + contact.name +
+    '</a></p></div>';
   });
 }

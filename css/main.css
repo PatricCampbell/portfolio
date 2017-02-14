@@ -42,18 +42,36 @@ img {
     border-radius: 10rem;
 }
 
-.portfolio {
+.portfolio, .contact {
     margin: 0 20% 5rem 20%;
 }
 
+.contact_list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact_link {
+    padding: 0 1rem;
+}
+
+.contact_link > p > a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.contact_link > p {
+    font-size: 1.5rem;
+}
+
 @media (max-width: 1026px) and (min-width: 651px) {
-    .portfolio {
+    .portfolio, .contact {
         margin: 0 10% 5rem 10%;
     }
 }
 
 @media (max-width: 650px) {
-    .portfolio {
+    .portfolio, .contact {
         margin: 0 2.5% 5rem 2.5%;
     }
 }
