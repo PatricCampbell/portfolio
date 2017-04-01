@@ -14,6 +14,13 @@ const projects = [
     'description': "You're looking right at it. This portfolio is made with vanilla javascript, html, and css."
   },
   {
+    'title': 'Patatap Clone',
+    'projectURL': 'https://patriccampbell.github.io/patatap-clone/',
+    'image': 'https://res.cloudinary.com/drhyh4h0r/image/upload/v1491073648/patatap_ohunzp.png',
+    'githubURL': 'https://github.com/PatricCampbell/patatap-clone',
+    'description': 'Clone of patatap.com but only with circles as the shapes. It uses paperJS to do the circle animations and howlerJS to play the music files.'
+  },
+  {
     'title': 'User Registration Form',
     'projectURL': '',
     'image': 'https://res.cloudinary.com/drhyh4h0r/image/upload/v1487015456/OSP-User-Form_fweeqd.png',
