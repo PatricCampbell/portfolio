@@ -4,7 +4,7 @@ const projects = [
     'projectURL': 'https://limitless-ravine-76629.herokuapp.com/',
     'image': 'https://res.cloudinary.com/drhyh4h0r/image/upload/v1492695251/yelpcamp_enqrbw.png',
     'githubURL': 'https://github.com/PatricCampbell/yelpcamp',
-    'description': 'YelpCamp project made for the Udemy Complete Web Develper course. Backend is written in NodeJS with ExpressJS and a MongoDB database. Frontend uses pug templates.'
+    'description': 'YelpCamp project made for the Udemy Complete Web Develper course. Backend is written in NodeJS with ExpressJS and a MongoDB database. This app uses RESTful principles for its API. Frontend uses pug templates.'
   },
   {
     'title': 'Patatap Clone',
