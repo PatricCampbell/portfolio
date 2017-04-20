@@ -1,17 +1,10 @@
 const projects = [
-  // {
-  //   'title': 'Random Quoter',
-  //   'projectURL': 'https://patriccampbell.github.io/random-quote',
-  //   'image': 'https://res.cloudinary.com/drhyh4h0r/image/upload/v1487016581/randomQuoter_eabpvg.png',
-  //   'githubURL': 'https://github.com/PatricCampbell/random-quote',
-  //   'description': 'Random Quoter app made for FreeCodeCamp.com certificate. It pulls from a random quote api and lets you tweet it or get a new quote.'
-  // },
   {
-    'title': 'Portfolio',
-    'projectURL': 'http://patriccampbell.com/',
-    'image': 'https://res.cloudinary.com/drhyh4h0r/image/upload/v1487106547/portfolio_pwapde.png',
-    'githubURL': 'https://github.com/PatricCampbell/portfolio',
-    'description': "You're looking right at it. This portfolio is made with vanilla javascript, html, and css."
+    'title': 'YelpCamp',
+    'projectURL': 'https://limitless-ravine-76629.herokuapp.com/',
+    'image': 'https://res.cloudinary.com/drhyh4h0r/image/upload/v1492695251/yelpcamp_enqrbw.png',
+    'githubURL': 'https://github.com/PatricCampbell/yelpcamp',
+    'description': 'YelpCamp project made for the Udemy Complete Web Develper course. Backend is written in NodeJS with ExpressJS and a MongoDB database. Frontend uses pug templates.'
   },
   {
     'title': 'Patatap Clone',
@@ -33,6 +26,13 @@ const projects = [
     'image': 'https://res.cloudinary.com/drhyh4h0r/image/upload/v1487015456/OSP-Consent-Form-Generator-Page_msscrf.png',
     'githubURL': '',
     'description': 'Consent Form generator for new human subjects researchers at NYU. It asks questions to generate the form, allows the user to edit it in the browser before creating a word document for them to download. It is written in vanilla javascript and uses the docx.js library to create the word document.'
+  },
+    {
+    'title': 'Portfolio',
+    'projectURL': 'http://patriccampbell.com/',
+    'image': 'https://res.cloudinary.com/drhyh4h0r/image/upload/v1487106547/portfolio_pwapde.png',
+    'githubURL': 'https://github.com/PatricCampbell/portfolio',
+    'description': "You're looking right at it. This portfolio is made with vanilla javascript, html, and css."
   }
 ];
 
