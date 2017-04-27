@@ -62,47 +62,48 @@ const contacts = [
 populateProjects(projects);
 populateContacts(contacts);
 
-//TODO Change these to ` blocks
 function populateProjects(projectArr) {
   var portfolio = document.querySelector(".portfolio");
   projectArr.forEach((project) => {
     if (project.githubURL !== "") {
-      portfolio.innerHTML = portfolio.innerHTML +
-      '<div class="project"><h3>' + project.title +
-      '</h3><a href="' + project.projectURL +
-      '" target= _blank><img src="' + project.image +
-      '"></a><a href="' + project.githubURL +
-      '" target= _blank>See Code on Github</a>' +
-      '<p>' + project.description +
-      '</p></div>';
+      portfolio.innerHTML = `
+        ${portfolio.innerHTML}
+        <div class='project'>
+          <h3>${project.title}</h3>
+          <a href=${project.projectURL} target=_blank>
+            <img src=${project.image} />
+          </a>
+          <a href=${project.githubURL} target=_blank>See Code on Github</a>
+          <p>${project.description}
+        </div>
+      `
     }
     else {
-      portfolio.innerHTML = portfolio.innerHTML +
-      '<div class="project"><h3>' + project.title +
-      '</h3><img src="' + project.image +
-      '"></a><p>' + project.description +
-      '</p></div>';
+      portfolio.innerHTML = `
+        ${portfolio.innerHTML}
+        <div class='project'>
+          <h3>${project.title}</h3>
+          <img src=${project.image} />
+          <p>${project.description}</p>
+        </div>
+      `
     }
   });
 }
 
-//TODO Change these to ` blocks
 function populateContacts(contactArr) {
   var contacts = document.querySelector(".contact_list");
   contactArr.forEach((contact) => {
-    if (contact.name !== "Email") {
-    contacts.innerHTML = contacts.innerHTML +
-    '<div class="contact_link"><p><a href="' + contact.link +
-    '" target=_blank><i class="fa fa-' + contact.icon +
-    '" aria-hidden="true"</i> ' + contact.name +
-    '</a></p></div>';
-  }
-  else {
-    contacts.innerHTML = contacts.innerHTML +
-    '<div class="contact_link"><p><a href="' + contact.link +
-    '"><i class="fa fa-' + contact.icon +
-    '" aria-hidden="true"</i> ' + contact.name +
-    '</a></p></div>';
-  }
+    contacts.innerHTML = `
+      ${contacts.innerHTML}
+      <div class='contact_link'>
+        <p>
+          <a href=${contact.link} target=_blank>
+            <i class='fa fa-${contact.icon}' aria-hidden='true'></i>
+            ${contact.name}
+          </a>
+        </p>
+      </div>
+    `
   });
 }
