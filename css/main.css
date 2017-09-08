@@ -44,11 +44,11 @@ img {
 }
 
 .about-me {
-    margin: 0 20% 5rem 20%;
+    margin: 5rem 20% 5rem 20%;
 }
 
-.about-me p {
-    font-size: 1.5rem;
+.about-me p, .portfolio p {
+    font-size: 1.25rem;
 }
 
 .portfolio, .contact {
@@ -58,11 +58,19 @@ img {
 .contact_list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .contact_link {
     padding: 0 1rem;
+}
+
+.contact_link:first-of-type {
+    padding: 0 1rem 0 0;
+}
+
+.contact_link:last-of-type {
+    padding: 0 0 0 1rem; 
 }
 
 .contact_link > p > a {
