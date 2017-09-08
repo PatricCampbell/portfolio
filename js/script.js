@@ -24,8 +24,8 @@ const projects = [
 
 const contacts = [
   {
-    name: "Email",
-    link: "mailto:patriccampbell@outlook.com",
+    name: "patric@patriccampbell.com",
+    link: "patric@patriccampbell.com",
     icon: "envelope-o"
   },
   {
