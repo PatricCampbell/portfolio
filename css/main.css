@@ -78,6 +78,10 @@ img {
     color: inherit;
 }
 
+.contact_link > p > a:hover {
+    color: darkgrey;
+}
+
 .contact_link > p {
     font-size: 1.5rem;
 }
