@@ -46,9 +46,9 @@ const contacts = [
     icon: "linkedin"
   },
   {
-    name: "FreeCodeCamp Profile",
-    link: "https://www.freecodecamp.com/patriccampbell",
-    icon: "free-code-camp"
+    name: "Resume",
+    link: "#resume",
+    icon: "file-text-o"
   }
 ];
 
