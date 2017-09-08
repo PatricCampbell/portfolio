@@ -1,17 +1,17 @@
 const projects = [
   {
+      title: 'Glitch',
+      projectURL: 'http://glitch.patriccampbell.com/#/',
+      image: 'https://res.cloudinary.com/drhyh4h0r/image/upload/v1504876423/glitch_fu60zv.png',
+      githubURL: 'https://github.com/PatricCampbell/Glitch',
+      description: 'Glitch is a real time chatting web application built using PostgresSQL as its database, Ruby on Rails as the backend, and React with Redux on the frontend. Glitch is inspired by Slack and allows users to chat in public channels as well as two person and multi-person direct messages.'
+  },
+  {
     title: 'YelpCamp',
     projectURL: 'https://limitless-ravine-76629.herokuapp.com/',
     image: 'https://res.cloudinary.com/drhyh4h0r/image/upload/v1492695251/yelpcamp_enqrbw.png',
     githubURL: 'https://github.com/PatricCampbell/yelpcamp',
     description: 'YelpCamp project made for the Udemy Complete Web Develper course. Backend is written in NodeJS with ExpressJS and a MongoDB database. This app uses RESTful principles for its API. Frontend uses pug templates.'
-  },
-  {
-    title: 'Patatap Clone',
-    projectURL: 'https://patriccampbell.github.io/patatap-clone/',
-    image: 'https://res.cloudinary.com/drhyh4h0r/image/upload/v1491073648/patatap_ohunzp.png',
-    githubURL: 'https://github.com/PatricCampbell/patatap-clone',
-    description: 'Clone of patatap.com but only with circles as the shapes. It uses paperJS to do the circle animations and howlerJS to play the music files.'
   },
   {
     title: 'User Registration Form',
@@ -26,13 +26,6 @@ const projects = [
     image: 'https://res.cloudinary.com/drhyh4h0r/image/upload/v1487015456/OSP-Consent-Form-Generator-Page_msscrf.png',
     githubURL: '',
     description: 'Consent Form generator for new human subjects researchers at NYU. It asks questions to generate the form, allows the user to edit it in the browser before creating a word document for them to download. It is written in vanilla javascript and uses the docx.js library to create the word document.'
-  },
-    {
-    title: 'Portfolio',
-    projectURL: 'http://patriccampbell.com/',
-    image: 'https://res.cloudinary.com/drhyh4h0r/image/upload/v1487106547/portfolio_pwapde.png',
-    githubURL: 'https://github.com/PatricCampbell/portfolio',
-    description: "You're looking right at it. This portfolio is made with vanilla javascript, html, and css."
   }
 ];
 
