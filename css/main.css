@@ -103,4 +103,7 @@ footer {
     .portfolio, .contact, .about-me {
         margin: 0 2.5% 5rem 2.5%;
     }
+    .contact_link {
+        padding: 0 1rem 0 0;
+    }
 }
