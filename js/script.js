@@ -19,20 +19,6 @@ const projects = [
     image: 'https://res.cloudinary.com/drhyh4h0r/image/upload/v1492695251/yelpcamp_enqrbw.png',
     githubURL: 'https://github.com/PatricCampbell/yelpcamp',
     description: 'YelpCamp is a full stack web application inspired by Yelp. The backend is written in NodeJS with ExpressJS and a MongoDB database. It utilizies RESTful principles for its API and the frontend uses pug templates.'
-  },
-  {
-    title: 'User Registration Form',
-    projectURL: '',
-    image: 'https://res.cloudinary.com/drhyh4h0r/image/upload/v1487015456/OSP-User-Form_fweeqd.png',
-    githubURL: '',
-    description: 'User Registration form for the Cayuse system at NYU. It validates all information using vanilla javascript and then submits via PHP to a spreadsheet and SQL database for the user to then be added to Cayuse.'
-  },
-  {
-    title: 'Consent Form Generator',
-    projectURL: '',
-    image: 'https://res.cloudinary.com/drhyh4h0r/image/upload/v1487015456/OSP-Consent-Form-Generator-Page_msscrf.png',
-    githubURL: '',
-    description: 'Consent Form generator for new human subjects researchers at NYU. It asks questions to generate the form, allows the user to edit it in the browser before creating a word document for them to download. It is written in vanilla javascript and uses the docx.js library to create the word document.'
   }
 ];
 
