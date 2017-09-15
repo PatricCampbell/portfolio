@@ -9,9 +9,16 @@ const projects = [
   {
     title: 'Kilobyte',
     projectURL: 'https://patriccampbell.github.io/Kilobyte/',
-    image: 'https://res.cloudinary.com/drhyh4h0r/image/upload/v1504876285/kilobyte_gkafea.png',
+    image: 'https://res.cloudinary.com/drhyh4h0r/image/upload/v1505491442/kilobyte_zcptql.png',
     githubURL: 'https://github.com/patriccampbell/kilobyte',
-    description: 'Kilobyte is a browser game based off of 1024. It is written in vanilla JavaScript and uses the Animate.css CSS library for its animations.'
+    description: 'Kilobyte is a browser game based off of 1024. It is written in vanilla JavaScript, CSS, and HTML.'
+  },
+  {
+    title: 'pMoney',
+    projectURL: 'https://patriccampbell.github.io/FoodMe/',
+    image: 'https://res.cloudinary.com/drhyh4h0r/image/upload/v1505491260/foodme_jxoxjm.png',
+    githubURL: 'https://github.com/PatricCampbell/pMoney',
+    description: 'pMoney is a DOM manipulation library inspired by jQuery written in vanilla JavaScript. There is a demo project called FoodMe that utilizes pMoney to make AJAX calls to an api that serves up 10 random rcipes'
   },
   {
     title: 'YelpCamp',
