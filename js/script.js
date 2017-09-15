@@ -8,7 +8,7 @@ const projects = [
   },
   {
     title: 'Kilobyte',
-    projectURL: 'https://patriccampbell.github.io/Kilobyte/',
+    projectURL: 'kilobyte.patriccampbell.com',
     image: 'https://res.cloudinary.com/drhyh4h0r/image/upload/v1505491442/kilobyte_zcptql.png',
     githubURL: 'https://github.com/patriccampbell/kilobyte',
     description: 'Kilobyte is a browser game based off of 1024. It is written in vanilla JavaScript, CSS, and HTML.'
