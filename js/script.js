@@ -47,7 +47,7 @@ const contacts = [
   },
   {
     name: "Resume",
-    link: "#resume",
+    link: "PatricCampbellResume.pdf",
     icon: "file-text-o"
   }
 ];
