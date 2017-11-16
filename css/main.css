@@ -2718,11 +2718,11 @@ input[type="button"]:disabled,
 }
 
 #footer .icons a {
-  color: rgba(255, 255, 255, 0.4);
+  color: #ffffff;
 }
 
 #footer .copyright {
-  color: rgba(255, 255, 255, 0.4);
+  color: #ffffff;
   font-size: 0.8em;
   list-style: none;
   margin: 1em 0 0 0;
